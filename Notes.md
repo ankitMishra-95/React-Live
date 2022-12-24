@@ -2,5 +2,4 @@
 
 <h2>(A) What is Emmet?</h2>
 
-<p>Ans. Emmet gets you code snippets with the help some unique expressions that is very helpful for some Boilerplate codes and saves typing as well.</p>
-    
+<p><strong>Ans.</strong> Emmet gets you code snippets with the help some unique expressions that is very helpful for some Boilerplate codes and saves typing as well.</p>
