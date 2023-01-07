@@ -6,6 +6,24 @@
 ```
 const heading3 = <h1 id="title" key="1">Heading</h1>
 ```
+
+// JSX => React.createElement => object => HTML(DOM) <br>
+// JSX Expression <br>
+// React Element - (this is just an object) <br>
+```
+const heading = <h1 id="title" key="1">Heading</h1>  
+const Heading2 = () => <h1 id="title" key="1">Heading2</h1>
+const Heading3 = () => <h1 id="title" key="1">Heading3</h1>
+console.log(heading);
+```
+
+// React Component (this is just a function)<br>
+// -Functional Component - new way<br>
+// -class based component - old way<br>
+
+// Name of component should start with a capital letter<br>
+// Functional componet is a normal function.<br>
+
 <h1>1. Inception</h1>
 
 <h2>(A) What is Emmet?</h2>
