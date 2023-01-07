@@ -1,9 +1,3 @@
-// JSX => React.createElement => object => HTML(DOM)
-// JSX Expression 
-// React Element
-```
-const heading3 = <h1 id="title" key="1">Heading</h1>
-```
 <h1>1. Inception</h1>
 
 <h2>(A) What is Emmet?</h2>
