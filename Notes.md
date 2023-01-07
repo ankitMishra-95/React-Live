@@ -20,7 +20,17 @@ console.log(heading);
 // React Component (this is just a function)<br>
 // -Functional Component - new way<br>
 // -class based component - old way<br>
-
+```
+const Footer = () => {
+    return (
+                <footer>
+                    <h4 id="title">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                </h4>
+                </footer>
+            );
+}
+```
 // Name of component should start with a capital letter<br>
 // Functional componet is a normal function.<br>
 
