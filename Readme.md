@@ -21,6 +21,9 @@ A CDN is content delivery network, It is a network of servers that shares conten
 </p>
 <h2>(E) What is crossorigin in script tag?</h2>
 <p><strong>Ans.</strong>
-
-
+CORS stands for cross origin resource sharing, CORS is used to allow cross origin requests to be made from another domains by default its set to "same-origin", It is used to check whether it is safe to allow sharing the resource from other domain, The resources may include the audio, video, images, link or scripts that specifies weather to support the request or not. 
+</p>
+<h2>What is difference between React and ReactDOM?</h2>
+<p><strong>Ans.</strong>
+So the react library is responsible for creating React components and the reat dom 
 </p>

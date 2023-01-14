@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom/client";
 console.log("hi");
 
@@ -1934,11 +1934,14 @@ const RestaurantCard = ({avgRating, cloudinaryImageId, cuisines, name}) => {
 
 const Body = () => {
     return (
-                <div className="container cont-body">
+                <div className="container">
+                    <SearchBar />
+                    <div className=" cont-body">
                     {console.log(restaurants[0].data.data.cards)}
                     {restaurants[0].data.data.cards.map((restaurant) => {
                         return <RestaurantCard key={restaurant.data.id} {...restaurant.data} />
                     })}
+                    </div>
                 </div>
             );
     
@@ -1946,13 +1949,31 @@ const Body = () => {
 
 const Footer = () => {
     return (
-                <footer className="container">
+                <footer className="">
+                    <div className="container">
                     <h4 id="title">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    Try to order whatever you want to make youself feel full.
                 </h4>
+                    </div>
                 </footer>
             );
     
+}
+
+const SearchBar = () => {
+    const [query, setQuery] = useState();
+
+    const handleSearch = () => {
+        console.log("search clicked");
+    }
+
+    return <>
+    <div className="search-area"><h2 className="heading"> {restaurants[0].data.data.cards.length} Restaurants</h2>
+        <div className="form">
+            <input type="text" className="" value={query} placeholder="Filter Restaurants" onChange={(e) => setQuery(e.target.value)} />
+            <button type="button" onClick={handleSearch}>Search</button>
+        </div></div>
+    </>
 }
 
 const AppLayout = () => {
@@ -1968,5 +1989,4 @@ const AppLayout = () => {
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<AppLayout />);
-
 

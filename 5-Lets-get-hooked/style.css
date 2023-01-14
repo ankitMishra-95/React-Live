@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #3a3a3a;
+}
+.container {
+    width: 1200px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+header {
+    background-color: rgba(0, 255, 255, 0.299);
+    padding: 15px 0;
+}
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #212121;
+}
+.navigation ul{
+    list-style: none;
+    display: flex;
+}
+.navigation ul li a{
+    padding: 10px;
+    text-decoration: none;
+}
+.card {
+    border:1px solid #eaeaea;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+:is(h3, h5, p) {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.card h5 {
+    font-weight: 500;
+}
+.card p {
+    text-align: right;
+    font-style: italic;
+    font-weight: 500;
+}
+.card > img {
+    width: 100%;
+    height: auto;
+}
+.cont-body {
+    margin: 0px auto 30px;
+}
+.cont-body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+    gap: 10px; 
+}
+footer {
+    margin-top: 20px;
+    background-color: #212121;
+    color: #fff;
+    padding: 20px;
+}
+#title {
+    font-weight: normal;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form > input {
+    width: 300px;
+    background-color: #efefef;
+    color: #212121;
+    border: 0;
+    box-shadow: none;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #00ffff4c;
+    border-right:0;
+    outline: none;
+}
+
+.form > button {
+    background-color: #00ffff4c;
+    color: #212121;
+    border: 0;
+    box-shadow: none;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #00ffff4c;
+    border-left: 0;
+    color: #212121;
+}
+.heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #212121;
+}
+.search-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
