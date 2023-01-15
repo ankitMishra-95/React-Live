@@ -123,3 +123,8 @@ footer {
     justify-content: space-between;
     padding: 20px 0;
 }
+.shimmi {
+    width: 210px !important;
+    height: 200px !important;
+    background: #efefef;
+}

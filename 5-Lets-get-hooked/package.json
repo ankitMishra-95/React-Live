@@ -12,7 +12,9 @@
   "dependencies": {
     "parcel": "^2.8.2",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-shimmer": "^3.2.0",
+    "shimmer": "^1.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
